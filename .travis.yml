@@ -8,6 +8,7 @@ jobs:
         apt:
           packages:
             - ninja-build
+            - cmake
       install:
         - source ~/virtualenv/python3.6/bin/activate
         - pip install meson
